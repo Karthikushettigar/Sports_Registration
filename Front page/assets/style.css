@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/assets/Images/mainbg.jpg);
+    background-size: cover;
+}
+
+.Nav {
+    background-color: rgb(192, 192, 218);
+}
+
+.topLogo {
+    margin-left: 2%;
+    width: 10%;
+    height: auto;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainHead {
+    font-size: 500%; 
+    font-weight: bold;
+    justify-content: space-around; 
+}
+
+.secHead, .trdHead {
+    font-size: 300%;
+    justify-content: space-around; 
+}
+
+
+.logobg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.reghead {
+    text-align: center;
+    font-size: 250%;
+    color: red;
+}
+
+.reg {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 40px;
+    width: 40%;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+
